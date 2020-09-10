@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:keybored-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -602,4 +603,10 @@ Wire Wire Line
 	4550 2300 4300 2300
 Wire Wire Line
 	4550 2200 4300 2200
+$Sheet
+S 6050 4950 3750 1350
+U 5F59D601
+F0 "matrix" 50
+F1 "matrix.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -463,142 +463,8 @@ F 3 "" H 7150 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 2150 6850 2150
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
-U 1 1 5F5BD9E0
-P 6900 3350
-F 0 "MX1" H 6933 3573 60  0000 C CNN
-F 1 "MX-NoLED" H 6933 3499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 6275 3325 60  0001 C CNN
-F 3 "" H 6275 3325 60  0001 C CNN
-	1    6900 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3500 6850 3500
-$Comp
-L Device:D_Small D1
-U 1 1 5F5C01A3
-P 6700 3600
-F 0 "D1" V 6746 3532 50  0000 R CNN
-F 1 "SOD-123" V 6655 3532 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6700 3600 50  0001 C CNN
-F 3 "~" V 6700 3600 50  0001 C CNN
-	1    6700 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX2
-U 1 1 5F5CC8AC
-P 6900 4000
-F 0 "MX2" H 6933 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 6933 4149 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 6275 3975 60  0001 C CNN
-F 3 "" H 6275 3975 60  0001 C CNN
-	1    6900 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 4150 6850 4150
-$Comp
-L Device:D_Small D2
-U 1 1 5F5CC8B3
-P 6700 4250
-F 0 "D2" V 6746 4182 50  0000 R CNN
-F 1 "SOD-123" V 6655 4182 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6700 4250 50  0001 C CNN
-F 3 "~" V 6700 4250 50  0001 C CNN
-	1    6700 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX4
-U 1 1 5F5D07A5
-P 7500 4000
-F 0 "MX4" H 7533 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 7533 4149 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 6875 3975 60  0001 C CNN
-F 3 "" H 6875 3975 60  0001 C CNN
-	1    7500 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 4150 7450 4150
-$Comp
-L Device:D_Small D4
-U 1 1 5F5D07AC
-P 7300 4250
-F 0 "D4" V 7346 4182 50  0000 R CNN
-F 1 "SOD-123" V 7255 4182 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7300 4250 50  0001 C CNN
-F 3 "~" V 7300 4250 50  0001 C CNN
-	1    7300 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX3
-U 1 1 5F5D2D0E
-P 7500 3350
-F 0 "MX3" H 7533 3573 60  0000 C CNN
-F 1 "MX-NoLED" H 7533 3499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 6875 3325 60  0001 C CNN
-F 3 "" H 6875 3325 60  0001 C CNN
-	1    7500 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 3500 7450 3500
-$Comp
-L Device:D_Small D3
-U 1 1 5F5D2D15
-P 7300 3600
-F 0 "D3" V 7346 3532 50  0000 R CNN
-F 1 "SOD-123" V 7255 3532 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7300 3600 50  0001 C CNN
-F 3 "~" V 7300 3600 50  0001 C CNN
-	1    7300 3600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7650 2850 7650 3300
-Connection ~ 7650 3300
-Wire Wire Line
-	7650 3300 7650 3950
-Wire Wire Line
-	7300 3700 6700 3700
-Connection ~ 6700 3700
-Wire Wire Line
-	6700 3700 6200 3700
-Wire Wire Line
-	7300 4350 6700 4350
-Connection ~ 6700 4350
-Wire Wire Line
-	6700 4350 6200 4350
-Wire Wire Line
-	7050 2850 7050 3300
-Connection ~ 7050 3300
-Wire Wire Line
-	7050 3300 7050 3950
-Text GLabel 6200 3700 0    50   Input ~ 0
-ROW0
-Text GLabel 6200 4350 0    50   Input ~ 0
-ROW1
-Text GLabel 7050 2850 1    50   Input ~ 0
-COL0
-Text GLabel 7650 2850 1    50   Input ~ 0
-COL1
 Text GLabel 4550 2200 2    50   Input ~ 0
-COL1
-Text GLabel 4550 2300 2    50   Input ~ 0
 COL0
-Text GLabel 4550 2400 2    50   Input ~ 0
-ROW1
-Text GLabel 4550 3700 2    50   Input ~ 0
-ROW0
-Wire Wire Line
-	4550 3700 4300 3700
-Wire Wire Line
-	4550 2400 4300 2400
 Wire Wire Line
 	4550 2300 4300 2300
 Wire Wire Line
@@ -609,4 +475,78 @@ U 5F59D601
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
+Text GLabel 4550 2300 2    50   Input ~ 0
+COL1
+Text GLabel 4550 2400 2    50   Input ~ 0
+COL2
+Text GLabel 4550 2500 2    50   Input ~ 0
+COL3
+Text GLabel 4550 2700 2    50   Input ~ 0
+COL4
+Text GLabel 4550 2800 2    50   Input ~ 0
+COL5
+Text GLabel 4550 3000 2    50   Input ~ 0
+COL6
+Text GLabel 4550 3100 2    50   Input ~ 0
+COL7
+Text GLabel 4550 3200 2    50   Input ~ 0
+COL8
+Text GLabel 4550 3300 2    50   Input ~ 0
+COL9
+Text GLabel 4550 3400 2    50   Input ~ 0
+COL10
+Text GLabel 4550 3500 2    50   Input ~ 0
+COL11
+Text GLabel 4550 3600 2    50   Input ~ 0
+COL12
+Text GLabel 4550 3700 2    50   Input ~ 0
+COL13
+Text GLabel 4550 4200 2    50   Input ~ 0
+COL14
+Text GLabel 4550 4300 2    50   Input ~ 0
+COL15
+Text GLabel 4550 4400 2    50   Input ~ 0
+ROW0
+Text GLabel 4550 4500 2    50   Input ~ 0
+ROW1
+Text GLabel 4550 4600 2    50   Input ~ 0
+ROW2
+Text GLabel 4550 4700 2    50   Input ~ 0
+ROW3
+Wire Wire Line
+	4550 2400 4300 2400
+Wire Wire Line
+	4300 2500 4550 2500
+Wire Wire Line
+	4550 2700 4300 2700
+Wire Wire Line
+	4550 2800 4300 2800
+Wire Wire Line
+	4300 3000 4550 3000
+Wire Wire Line
+	4550 3100 4300 3100
+Wire Wire Line
+	4300 3200 4550 3200
+Wire Wire Line
+	4550 3300 4300 3300
+Wire Wire Line
+	4300 3400 4550 3400
+Wire Wire Line
+	4550 3500 4300 3500
+Wire Wire Line
+	4300 3600 4550 3600
+Wire Wire Line
+	4550 3700 4300 3700
+Wire Wire Line
+	4300 4200 4550 4200
+Wire Wire Line
+	4550 4300 4300 4300
+Wire Wire Line
+	4300 4400 4550 4400
+Wire Wire Line
+	4550 4500 4300 4500
+Wire Wire Line
+	4300 4600 4550 4600
+Wire Wire Line
+	4550 4700 4300 4700
 $EndSCHEMATC
