@@ -63,10 +63,10 @@ Wire Wire Line
 	3600 5100 3700 5100
 Connection ~ 3600 5100
 $Comp
-L Device:R_Small R4
+L Device:R_Small R_HWB1
 U 1 1 5F57E4AB
 P 5100 3900
-F 0 "R4" V 4904 3900 50  0000 C CNN
+F 0 "R_HWB1" V 4904 3900 50  0000 C CNN
 F 1 "10k" V 4995 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 3900 50  0001 C CNN
 F 3 "~" H 5100 3900 50  0001 C CNN
@@ -89,10 +89,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 3900 5000 3900
 $Comp
-L Device:R_Small R3
+L Device:R_Small R_D+1
 U 1 1 5F57FF45
 P 2800 2800
-F 0 "R3" V 2604 2800 50  0000 C CNN
+F 0 "R_D+1" V 2604 2800 50  0000 C CNN
 F 1 "22" V 2695 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2800 2800 50  0001 C CNN
 F 3 "~" H 2800 2800 50  0001 C CNN
@@ -100,10 +100,10 @@ F 3 "~" H 2800 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R1
+L Device:R_Small R_D-1
 U 1 1 5F5804A5
 P 2400 2900
-F 0 "R1" V 2204 2900 50  0000 C CNN
+F 0 "R_D-1" V 2204 2900 50  0000 C CNN
 F 1 "22" V 2295 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 2900 50  0001 C CNN
 F 3 "~" H 2400 2900 50  0001 C CNN
@@ -115,10 +115,10 @@ Wire Wire Line
 Wire Wire Line
 	3100 2900 2500 2900
 $Comp
-L Device:C_Small C6
+L Device:C_Small C_UCAP1
 U 1 1 5F58160B
 P 2600 3300
-F 0 "C6" H 2692 3346 50  0000 L CNN
+F 0 "C_UCAP1" H 2692 3346 50  0000 L CNN
 F 1 "1uF" H 2692 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2600 3300 50  0001 C CNN
 F 3 "~" H 2600 3300 50  0001 C CNN
@@ -143,10 +143,10 @@ $EndComp
 Wire Wire Line
 	2600 3450 2600 3400
 $Comp
-L Device:C_Small C3
+L Device:C_Small C_D0
 U 1 1 5F5835F2
 P 1900 4450
-F 0 "C3" H 1992 4496 50  0000 L CNN
+F 0 "C_D0" H 1992 4496 50  0000 L CNN
 F 1 "0.1uF" H 1992 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 4450 50  0001 C CNN
 F 3 "~" H 1900 4450 50  0001 C CNN
@@ -154,10 +154,10 @@ F 3 "~" H 1900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L Device:C_Small C_D1
 U 1 1 5F5842E1
 P 2150 4450
-F 0 "C4" H 2242 4496 50  0000 L CNN
+F 0 "C_D1" H 2242 4496 50  0000 L CNN
 F 1 "0.1uF" H 2242 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2150 4450 50  0001 C CNN
 F 3 "~" H 2150 4450 50  0001 C CNN
@@ -165,10 +165,10 @@ F 3 "~" H 2150 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C_D2
 U 1 1 5F5846CF
 P 2450 4450
-F 0 "C5" H 2542 4496 50  0000 L CNN
+F 0 "C_D2" H 2542 4496 50  0000 L CNN
 F 1 "0.1uF" H 2542 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2450 4450 50  0001 C CNN
 F 3 "~" H 2450 4450 50  0001 C CNN
@@ -176,10 +176,10 @@ F 3 "~" H 2450 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L Device:C_Small C_D3
 U 1 1 5F584C7C
 P 2700 4450
-F 0 "C7" H 2792 4496 50  0000 L CNN
+F 0 "C_D3" H 2792 4496 50  0000 L CNN
 F 1 "10uF" H 2792 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 4450 50  0001 C CNN
 F 3 "~" H 2700 4450 50  0001 C CNN
@@ -263,10 +263,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 2200 3100 2200
 $Comp
-L Device:C_Small C1
+L Device:C_Small C_XTAL0
 U 1 1 5F59337E
 P 1850 1850
-F 0 "C1" V 2079 1850 50  0000 C CNN
+F 0 "C_XTAL0" V 2079 1850 50  0000 C CNN
 F 1 "22pF" V 1988 1850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1850 1850 50  0001 C CNN
 F 3 "~" H 1850 1850 50  0001 C CNN
@@ -274,10 +274,10 @@ F 3 "~" H 1850 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small C_XTAL1
 U 1 1 5F59434C
 P 1850 2300
-F 0 "C2" V 1621 2300 50  0000 C CNN
+F 0 "C_XTAL1" V 1621 2300 50  0000 C CNN
 F 1 "22pF" V 1712 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1850 2300 50  0001 C CNN
 F 3 "~" H 1850 2300 50  0001 C CNN
@@ -327,10 +327,10 @@ Wire Wire Line
 Connection ~ 1750 2300
 Connection ~ 1600 2500
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push SW_PUSH_RESET1
 U 1 1 5F5993F7
 P 2450 1800
-F 0 "SW1" H 2450 2085 50  0000 C CNN
+F 0 "SW_PUSH_RESET1" H 2450 2085 50  0000 C CNN
 F 1 "SW_Push" H 2450 1994 50  0000 C CNN
 F 2 "random-keyboard-parts:SKQG-1155865" H 2450 2000 50  0001 C CNN
 F 3 "~" H 2450 2000 50  0001 C CNN
@@ -353,10 +353,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 1750 2250 1800
 $Comp
-L Device:R_Small R2
+L Device:R_Small R_RESET1
 U 1 1 5F59BDA9
 P 2750 1600
-F 0 "R2" H 2809 1646 50  0000 L CNN
+F 0 "R_RESET1" H 2809 1646 50  0000 L CNN
 F 1 "10k" H 2809 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2750 1600 50  0001 C CNN
 F 3 "~" H 2750 1600 50  0001 C CNN
@@ -403,10 +403,10 @@ F 3 "" H 6550 1950 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Polyfuse_Small F1
+L Device:Polyfuse_Small F_VBUS1
 U 1 1 5F5B277E
 P 7550 1750
-F 0 "F1" V 7345 1750 50  0000 C CNN
+F 0 "F_VBUS1" V 7345 1750 50  0000 C CNN
 F 1 "500mA" V 7436 1750 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 7600 1550 50  0001 L CNN
 F 3 "~" H 7550 1750 50  0001 C CNN
@@ -414,10 +414,10 @@ F 3 "~" H 7550 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR0111
+L power:VCC #VCC_VBUS0101
 U 1 1 5F5B38E9
 P 7150 1750
-F 0 "#PWR0111" H 7150 1600 50  0001 C CNN
+F 0 "#VCC_VBUS0101" H 7150 1600 50  0001 C CNN
 F 1 "VCC" H 7167 1923 50  0000 C CNN
 F 2 "" H 7150 1750 50  0001 C CNN
 F 3 "" H 7150 1750 50  0001 C CNN
@@ -464,7 +464,7 @@ $EndComp
 Wire Wire Line
 	7150 2150 6850 2150
 Text GLabel 4550 2200 2    50   Input ~ 0
-COL0
+COL6
 Wire Wire Line
 	4550 2300 4300 2300
 Wire Wire Line
@@ -476,47 +476,41 @@ F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
 Text GLabel 4550 2300 2    50   Input ~ 0
-COL1
-Text GLabel 4550 2400 2    50   Input ~ 0
-COL2
-Text GLabel 4550 2500 2    50   Input ~ 0
-COL3
-Text GLabel 4550 2700 2    50   Input ~ 0
-COL4
-Text GLabel 4550 2800 2    50   Input ~ 0
 COL5
+Text GLabel 4550 2400 2    50   Input ~ 0
+COL4
+Text GLabel 4550 2700 2    50   Input ~ 0
+COL3
+Text GLabel 4550 2800 2    50   Input ~ 0
+COL2
 Text GLabel 4550 3000 2    50   Input ~ 0
-COL6
-Text GLabel 4550 3100 2    50   Input ~ 0
-COL7
-Text GLabel 4550 3200 2    50   Input ~ 0
-COL8
-Text GLabel 4550 3300 2    50   Input ~ 0
-COL9
-Text GLabel 4550 3400 2    50   Input ~ 0
-COL10
-Text GLabel 4550 3500 2    50   Input ~ 0
-COL11
-Text GLabel 4550 3600 2    50   Input ~ 0
-COL12
-Text GLabel 4550 3700 2    50   Input ~ 0
-COL13
-Text GLabel 4550 4200 2    50   Input ~ 0
 COL14
+Text GLabel 4550 3100 2    50   Input ~ 0
+COL13
+Text GLabel 4550 3200 2    50   Input ~ 0
+COL12
+Text GLabel 4550 3300 2    50   Input ~ 0
+COL11
+Text GLabel 4550 3400 2    50   Input ~ 0
+COL9
+Text GLabel 4550 3500 2    50   Input ~ 0
+COL10
+Text GLabel 4550 3600 2    50   Input ~ 0
+COL8
+Text GLabel 4550 3700 2    50   Input ~ 0
+COL7
+Text GLabel 4550 4200 2    50   Input ~ 0
+ROW3
 Text GLabel 4550 4300 2    50   Input ~ 0
-COL15
+ROW2
 Text GLabel 4550 4400 2    50   Input ~ 0
-ROW0
-Text GLabel 4550 4500 2    50   Input ~ 0
 ROW1
 Text GLabel 4550 4600 2    50   Input ~ 0
-ROW2
+COL0
 Text GLabel 4550 4700 2    50   Input ~ 0
-ROW3
+COL1
 Wire Wire Line
 	4550 2400 4300 2400
-Wire Wire Line
-	4300 2500 4550 2500
 Wire Wire Line
 	4550 2700 4300 2700
 Wire Wire Line
@@ -549,4 +543,10 @@ Wire Wire Line
 	4300 4600 4550 4600
 Wire Wire Line
 	4550 4700 4300 4700
+Text GLabel 4550 4500 2    50   Input ~ 0
+ROW0
+Text GLabel 4550 2100 2    50   Input ~ 0
+COL15
+Wire Wire Line
+	4550 2100 4300 2100
 $EndSCHEMATC
