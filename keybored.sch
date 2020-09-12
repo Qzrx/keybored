@@ -464,7 +464,7 @@ $EndComp
 Wire Wire Line
 	7150 2150 6850 2150
 Text GLabel 4550 2200 2    50   Input ~ 0
-COL6
+COL10
 Wire Wire Line
 	4550 2300 4300 2300
 Wire Wire Line
@@ -476,39 +476,39 @@ F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
 Text GLabel 4550 2300 2    50   Input ~ 0
-COL5
-Text GLabel 4550 2400 2    50   Input ~ 0
-COL4
-Text GLabel 4550 2700 2    50   Input ~ 0
-COL3
-Text GLabel 4550 2800 2    50   Input ~ 0
-COL2
-Text GLabel 4550 3000 2    50   Input ~ 0
-COL14
-Text GLabel 4550 3100 2    50   Input ~ 0
-COL13
-Text GLabel 4550 3200 2    50   Input ~ 0
-COL12
-Text GLabel 4550 3300 2    50   Input ~ 0
-COL11
-Text GLabel 4550 3400 2    50   Input ~ 0
 COL9
-Text GLabel 4550 3500 2    50   Input ~ 0
-COL10
-Text GLabel 4550 3600 2    50   Input ~ 0
+Text GLabel 4550 2400 2    50   Input ~ 0
 COL8
-Text GLabel 4550 3700 2    50   Input ~ 0
+Text GLabel 4550 2700 2    50   Input ~ 0
 COL7
-Text GLabel 4550 4200 2    50   Input ~ 0
-ROW3
-Text GLabel 4550 4300 2    50   Input ~ 0
+Text GLabel 4550 2800 2    50   Input ~ 0
+COL6
+Text GLabel 4550 3000 2    50   Input ~ 0
 ROW2
-Text GLabel 4550 4400 2    50   Input ~ 0
+Text GLabel 4550 3100 2    50   Input ~ 0
 ROW1
-Text GLabel 4550 4600 2    50   Input ~ 0
+Text GLabel 4550 3200 2    50   Input ~ 0
+ROW0
+Text GLabel 4550 3300 2    50   Input ~ 0
+COL15
+Text GLabel 4550 3400 2    50   Input ~ 0
+COL13
+Text GLabel 4550 3500 2    50   Input ~ 0
+COL14
+Text GLabel 4550 3600 2    50   Input ~ 0
+COL12
+Text GLabel 4550 3700 2    50   Input ~ 0
+COL11
+Text GLabel 4550 4200 2    50   Input ~ 0
 COL0
-Text GLabel 4550 4700 2    50   Input ~ 0
+Text GLabel 4550 4300 2    50   Input ~ 0
 COL1
+Text GLabel 4550 4400 2    50   Input ~ 0
+COL2
+Text GLabel 4550 4600 2    50   Input ~ 0
+COL4
+Text GLabel 4550 4700 2    50   Input ~ 0
+COL5
 Wire Wire Line
 	4550 2400 4300 2400
 Wire Wire Line
@@ -544,9 +544,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 4700 4300 4700
 Text GLabel 4550 4500 2    50   Input ~ 0
-ROW0
-Text GLabel 4550 2100 2    50   Input ~ 0
-COL15
+COL3
+Text GLabel 4550 2500 2    50   Input ~ 0
+ROW3
 Wire Wire Line
-	4550 2100 4300 2100
+	4550 2500 4300 2500
 $EndSCHEMATC
